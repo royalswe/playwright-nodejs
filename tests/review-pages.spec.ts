@@ -1,20 +1,11 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
   await page.goto('https://www.sodra.com/sv/se/');
 });
 
-// test('should see start page title', async ({ page }) => {
-//   await page.goto('https://www.sodra.com/sv/se/');
-//   expect(await page.title()).toBe(
-//     'Södra är Sveriges största skogsägarförening.'
-//   );
-// });
-
 //test.use({ storageState: 'storage-state/storageState.json' });
 test('Navigate to pages to review', async ({ page }) => {
-  //await browser.newContext({ storageState: 'storage-state/storageState.json' });
-
   expect(await page.title()).toBe(
     'Södra är Sveriges största skogsägarförening.'
   );

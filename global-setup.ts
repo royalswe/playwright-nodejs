@@ -4,13 +4,16 @@
  * To use storageState.json instead of this test to save time, comment out globalSetup in playwright.config.ts
  *
  * To use store file in specifik test: test.use({ storageState: 'storage-state/storageState.json' });
+ *
+ * OBS: chromium browser will cache credentials even in incognito mode because it is stored in windows.
+ * To make this work in non chromium browser this setup is more complicated what it has to be.
  */
 
 import { chromium, FullConfig } from '@playwright/test';
 
-const alias = process.env.LOGIN_ALIAS ?? '';
-const username = process.env.LOGIN_USERNAME ?? '';
-const password = process.env.LOGIN_PASSWORD ?? '';
+const _username_alias = process.env.LOGIN_ALIAS ?? '';
+const _username = process.env.LOGIN_USERNAME ?? '';
+const _password = process.env.LOGIN_PASSWORD ?? '';
 
 async function globalSetup(config: FullConfig) {
   const { baseURL, storageState } = config.projects[0].use;
@@ -26,32 +29,45 @@ async function globalSetup(config: FullConfig) {
   await page.locator('button:has-text("account_circle")').click();
 
   // Click login button
+  let adfsURL = '';
   await Promise.all([
-    page.waitForNavigation(),
+    page.waitForResponse((response) => {
+      adfsURL = response.url(); // need this url if ADFS promt occurs
+      return (
+        response.url().includes('adfs.sodra.com/adfs') &&
+        response.status() === 200
+      );
+    }),
+    //page.waitForNavigation(),
     page.locator('text=lock').click(),
   ]);
 
-  // if false then allready logged and redirect to start page
+  // chromium store credentials in windows, if false then allready logged and redirect to start page.
   if (page.url() !== baseURL) {
     try {
-      // Fill [placeholder="Username"]
-      await page.locator('id=userNameInput').fill(username);
-      // Fill [placeholder="Password"]
-      await page.locator('id=passwordInput').fill(password);
+      await page.screenshot({ path: 'screenshots/2.png' });
 
+      // Fill [placeholder="Username"]
+      await page.locator('id=userNameInput').fill(_username);
+      // Fill [placeholder="Password"]
+      await page.locator('id=passwordInput').fill(_password);
+      await page.screenshot({ path: 'screenshots/22.png' });
       // Click submit button
       await Promise.all([
         page.waitForNavigation({ url: baseURL }),
         page.locator('id=submitButton').click(),
       ]);
     } catch {
-      // if catch the login page is only a login box without DOM elements, login via url instead.
-      page.goto(alias + ':' + password + '@' + page.url().split('//')[1]);
+      // this runs when the login page is only a ADFS prompt without DOM elements, login via url instead of form.
+      page.goto(
+        _username_alias + ':' + password + '@' + adfsURL.split('//')[1]
+      );
     }
   }
+  await page.screenshot({ path: 'screenshots/44.png' });
 
-  // Make sure the start page dom is loaded just to make sure everything is ok
-  await page.waitForLoadState('domcontentloaded');
+  // Probably do not need dom loaded, but just to be sure.
+  //await page.waitForLoadState('domcontentloaded');
 
   // Save session in file so we keep logged in and cookies accepted.
   await page.context().storageState({ path: storageState as string });

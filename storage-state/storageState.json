@@ -1,0 +1,258 @@
+{
+  "cookies": [
+    {
+      "sameSite": "None",
+      "name": "MSISAuth",
+      "value": "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",
+      "domain": "adfs.sodra.com",
+      "path": "/adfs",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "MSISSignOut",
+      "value": "c2lnbm91dENsZWFudXA7aHR0cHMlM2ElMmYlMmZzb2RyYS13d3cuc29kcmEuY29tJnd3dy5zb2RyYS5jb20maHR0cHMlM2ElMmYlMmZ3d3cuc29kcmEuY29tJmh0dHBzJTNhJTJmJTJmd3d3LnNvZHJhLmNvbVw=",
+      "domain": "adfs.sodra.com",
+      "path": "/adfs",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "MSISAuthenticated",
+      "value": "MjAyMi0wNS0xOSAyMDoyOToxMg==",
+      "domain": "adfs.sodra.com",
+      "path": "/adfs",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "MSISLoopDetectionCookie",
+      "value": "MjAyMi0wNS0xOToyMDoyOToxMlpcMQ==",
+      "domain": "adfs.sodra.com",
+      "path": "/adfs",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "ASP.NET_SessionId",
+      "value": "ur5hwgkrunmzee0bqjidh3vc",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "ARRAffinity",
+      "value": "25dc5cbee5ad4cde559733d1b5e6edb2a6abba5a0984c9249c093fcad55d2e52",
+      "domain": ".www.sodra.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "YSC",
+      "value": "zDtiiBEBejM",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "FrmFs72nI-s",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1668544149.890637,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "CookieInformationConsent",
+      "value": "%7B%22website_uuid%22%3A%223f0aae03-7e3e-4415-a456-335cc1c43e0e%22%2C%22timestamp%22%3A%222022-05-19T20%3A29%3A10.746Z%22%2C%22consent_url%22%3A%22https%3A%2F%2Fwww.sodra.com%2Fsv%2Fse%2F%22%2C%22consent_website%22%3A%22sodra.com%22%2C%22consent_domain%22%3A%22www.sodra.com%22%2C%22user_uid%22%3A%22318433b0-bf05-4fd2-b330-e3db27a33636%22%2C%22consents_approved%22%3A%5B%22cookie_cat_necessary%22%2C%22cookie_cat_functional%22%2C%22cookie_cat_statistic%22%2C%22cookie_cat_marketing%22%2C%22cookie_cat_unclassified%22%5D%2C%22consents_denied%22%3A%5B%5D%2C%22user_agent%22%3A%22Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20HeadlessChrome%2F102.0.5005.40%20Safari%2F537.36%22%7D",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": 1684528150,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "_gcl_au",
+      "value": "1.1.20818001.1652992151",
+      "domain": ".sodra.com",
+      "path": "/",
+      "expires": 1660768150,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "gtm_isp_lookup",
+      "value": "true",
+      "domain": ".sodra.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "_gid",
+      "value": "GA1.2.386447070.1652992151",
+      "domain": ".sodra.com",
+      "path": "/",
+      "expires": 1653078553,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "_gat_UA-4410563-3",
+      "value": "1",
+      "domain": ".sodra.com",
+      "path": "/",
+      "expires": 1652992211,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "None",
+      "name": "vaid",
+      "value": "6227307627429548",
+      "domain": "analytics.bnxtrk.com",
+      "path": "/",
+      "expires": 1684528154.133914,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "vlmref",
+      "value": "6227307627428384",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": 1684528154,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "vaid",
+      "value": "6227307627429548",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": 1684528154,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": ".AspNet.Federation",
+      "value": "wAsqZpiTm-2f2M_C5bBzHN0oHgp6Zv4fTQOQCGG4lQ2bbl2c3q1VrQvKyJOkGl7SF2F0QwBbSnLp7CSpcE-nlXVlHiGXwcsiu6HPB2kHVnPCaak9hzwNy6ONu5pWRxL83-Y4JkfnEHB88gIfMEBHGYi-z1ep62NShKbRnhTxfUNnfr6G0ddhEifLSZDmbn0gvv8daHF-ne3HBhh-7tMWcErg-n-N1BJCnnh8qneQ-n9SDLD8qE2zpP-KAxth71iMJhMt-ObLHqnmPRxAE5XVC5JMoxuYGKFBZ5xyZEIPnTsXOlRmj-9XJp_xUZ5Yi6jqTR6sWotUFZrPiy7nA3vRtmp-NoNqxE36vwUjhZtxpxVDsygcRZ1d_YkozwBwpbtHYk6yLBjK8CbQCOjYUuF1pY6QGq_Li38w8Nxuf62e1WZjdTn8oUkCEodD0UMOtktOp7EFi_-wW9DzU-sTAipivCE2WJAB2UK5lP3JUvTe35ebZR02fPfJ-YBN78BjaTtIVcvAzZLsIX7a-5cpuQxvATRvJoDn2AbBztD0u_W1LCAr5yXnFZQNvPNQw8cxU2ceWtrGTmK9t8nGRr4LTCnlvW28OOlbPsmnqPqWYb52NaBrvfwt1FSQHWjbJig34uN4d9mia-pjhLT9zCOwlK_BYErSz8Sc2GI1TFQck3vs1LL39lD2uXS7C5tB02AFdJLnCQUlvniZB-vv-_LfTHxzkLan4-o_eLp6PHHb19vcQ7cPWgWGR8SmuS2a1oEv8ocQJgLPSmToWJAU4xyuf-dFAmvfLf5Yi_OUnBIUvsG_jHgTzJLdsZkhYAjTXctyUQDNK5N_d4lDA43Q06QMWCMKi62SMI_yBC0TpwJFLoQQprkr-W_sFKskKsRVLODTJv5oRfUvpEZW0RBp_eHhm-5xiGQCk92qnPviC9NVvKSr-ms87cbtwIFH8baD7CSHmS1D6CF0ss5hSvjJCW8m7e7SSq8DGDNqzTnm3npcpm7SsnlLsCPVMLNdlurjWmt8y0-CpEMXuHNotJQsYnN9BkDbgNRtgA5c4goTWvZkDl9llM40D4CjX7ipDxwYsp9a3UkDF7aGxJWxsGM2tl4RH8xu4C27UGl3yaSJYC5rzJZMmjGqWIrGlfz5u4PfqliQINWeWSSLrMAHVyE3mkPmFBVuhKtf29-Ut6eDA8Q65TwWQtdB58dPFZlj5n02sfO111GtWIs4SdynHhj4Wy3KSUumaR7xDwjQDGwE0LHn7AyznEqI4lMKWg3iHiMxUYp373zycIk7HzcpycyzKZjBO5cEUqL2m8XRy6aJpPlvtpAIK2Js8ZH9BtG3opQaSCaP_9NeubwyVR8hGShHQOtqimlnGV3WsP45w60mXMNz-KuWS9hO94lTaaI4SNSgkIiyitnG1VUCE1eUWUKF4Vcqjihnr5eEHmRqHlclnBpKmxOd6hU9ZJT5eKGeJsLdspNSutRwj52-EJrhrLnnj5XR_BFT59eblCQ8gJmzdz4y1iMWoiOaxL5hZUP-4tA541S7X60KJLXXFa_PwKvGVTVakgku_xB3U9ZB-dvh76R0whSzHc7lG6jpUjFm4ossvp03Fvjcw2tnNM4nzyvfwGebfIyfo50KmgfxCNwgxyMsofXqRmuERRXL9KUmG74Tcg7tq-acPsNjWhhs87yCW9V0GY5EtVJdWA4J6SQNtlOwN7VKVNN53OVoiIDV4MFohx53XcUxB6-bfjyuZX-4EfTJqhkpFn8AYSDjJh1pcQsqkofSewJTgHq1ElicrBC8vsKhfZ9F_QKAzPR5RmBJtb79PEs2YYOWexFBrSab3uxaWqSNDzkDkEZDsHiREtsFl2ZRWX3qUAYkQmuyFzXuQtyK9b0-8ay8l-vzoKPvcJ-tRSGN5Hjs42dBecVGooJc-D-1BFrgNxAre_9VFBQfD2G7qIcGeiTBGncxcSHDsXvPunAC-Y2u_5WaIoV4_d3yKHLmi_eVCSa5FqLLFX4pfGQPDXk8IIeKgojlRArVwBZrVbYav5Kg-9J8NoqOPp67aVFtMovCiv1vmC8g4PFROy1AzU5vOgFWZBt3Hnm2tvB41ykTFXWgJiZRDvdhgin2aZK_eNMOPG2o5qYMMLhJk1GbGi7uF4YSpA0YXKgfcYO1APwBh7g_ObhoqsuC2XBtcDPYOMYD8t2pwysuysOMKQnX4ZFmDiqMSoeJiIE2s3aUei7McsSVTOX1sWmhj44ImoyYwX-GeMB-T9lPMxoHNBmrZzaIjL0Q_bGpKxhIYsfEMLCE1w8STDbWtpxHyUmtV2UFiQzGhE8v99qs-BSOqJAxFskEzaJlTUoww2T566rKux7yTmWpqnuJIXKuFBl9wtf01VfA0dT2PJiPax-GONOa5sHmorQl9da3e43N1wjUyXChtvHXySrpqABt3pKz1ycoub6ICi0z4dbxCcLpWx1qrL8aL6HxIAEptGTNYiBvVoRFD_rzdZYMpk67NKf7YZQE3yUsNnHmgRKNbez3N2NOmNBuaA_pEpdY3b7See45xVSybJ6h1deDBokykn6ZG8tsQeFnBWD9_JEGSiQEQwCy4DZVer-7uKWqf0wY0ZcYhQ90IHQtSKES50xL6vEma9vWxTfVzTAOUZ61zSHshXEq85aOAlPmDDaQN0jVYnJIYsNLlTGA_KNPyGR7Ai9IPuFwQz5XFDZWd1g9Fmz76uMpdeU-jwZ-FOrfTJ4_-ojgxIAdJAb7DoSt_Tcda9fKtKpSdwHKFubt5iicCiAbu9goeZUMNhFSlQ3Fp0eo6-SL-yLJ2XQNcC1Wi0GWkQ_HF2jLQ07B8FkCZxWr04tkrRdPU5-JIYuKY9MQZ7WtgoRfuelvS9-meZGDdRXrhmWq6B4iJDUTG78U3jtFAbebo7uyTCAQek_BMMMotfzpPH8ET4R6EyxL3OPpyMfBYJNnAr3Klo2koCVxROcxkZryotHqwMR9HMdxiPLKiJY8Dh7-V7JTKv8Ci5gBYH_eZ5EGdDqDMe8XEz71qyLmXChaWf23PEba2zc6RWh1OZDUHSsrjTOIDt2lK20SVWQtjVAjpXrFll5PbmuJ99L7fVODyinMGp_fae_5mUJRMLWZw1RAwKwAFoY",
+      "domain": ".sodra.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": ".SodraLastVisitedStartPageId",
+      "value": "42900",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": 1684528154.691372,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": ".SodraSelectedLanguage",
+      "value": "sv",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": 1684528154.691423,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": ".SodraVisitType",
+      "value": "External",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": 1684528154.691439,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "_ga",
+      "value": "GA1.1.1415877509.1652992151",
+      "domain": ".sodra.com",
+      "path": "/",
+      "expires": 1716064154,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "None",
+      "name": "IDE",
+      "value": "AHWqTUmD1wqEK4WO3FNOAjcQy0tfEa4fUb5Oyop7gxj3Ph19HRpQT_29Td6Es13v",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1686688154.098709,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": ".SodraSectionVisits",
+      "value": "",
+      "domain": "www.sodra.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.sodra.com",
+      "localStorage": [
+        {
+          "name": "tsv",
+          "value": "{\"course\":{\"allcategories\":\"Alla kategorier\",\"loading\":\"Laddar...\",\"offering\":{\"header\":\"Kurstillfällen\",\"none\":\"Det finns inga kurstillfällen\",\"when\":\"När\",\"where\":\"Var\",\"contact\":\"Kontaktperson\",\"price\":\"Pris (exkl moms)\",\"priceshort\":\"Pris\",\"availableseats\":\"Platser kvar\",\"availableseatsnone\":\"Fullbokad\",\"closed\":\"Anmälan stängd\",\"signup\":\"ANMÄLAN\",\"interest\":\"INTRESSEANMÄLAN\",\"lastapplicationdate\":\"Anmälan före\",\"enrolementenddays\":\"dagar kvar\",\"enrolementendday\":\"dag kvar\"},\"offeringslist\":{\"signup\":\"Läs mer, Anmälan\",\"courses\":\"Kurser\",\"locations\":\"Områden\",\"dates\":\"Datum\",\"course\":\"Kurs\"},\"application\":{\"header\":\"Anmälan till kurs\",\"readmore\":\"Läs mer om kursen.\",\"welcome\":\"Välkommen med din anmälan. Fyll i formuläret nedan.\",\"course\":\"Kurs:\",\"time\":\"Tid:\",\"location\":\"Plats:\",\"price\":\"Pris (exkl moms):\",\"enrolementend\":\"Anmälan före:\",\"contact\":\"Kontaktperson:\",\"teacher\":\"Kursledare:\",\"participant\":\"deltagare\",\"session\":{\"header\":\"Träffar\",\"date\":\"Datum\",\"start\":\"Börjar\",\"end\":\"Slutar\",\"title\":\"Titel\"},\"form\":{\"header\":\"Formulär\",\"contact\":\"Kontaktuppgifter\",\"firstname\":\"Förnamn\",\"firstnameerror\":\"Förnamn måste anges\",\"lastname\":\"Efternamn\",\"lastnameerror\":\"Efternamn måste anges\",\"email\":\"E-post\",\"emailerror\":\"E-post är felaktigt\",\"emailplaceholder\":\"du@domän.com\",\"tel\":\"Hemtelefon\",\"telerror\":\"Hemtelefon eller mobiltelefon måste anges\",\"mobile\":\"Mobiltelefon\",\"mobileerror\":\"Mobiltelefon eller hemtelefon måste anges\",\"socialsecuritynumber\":\"Personnummer\",\"socialsecuritynumbererror\":\"Personnummer är felaktigt\",\"address\":\"Adress\",\"streetaddress\":\"Gatuadress\",\"streetaddresserror\":\"Gatuadress måste anges\",\"postalcode\":\"Postnummer\",\"postalcodeerror\":\"Postnummer måste anges\",\"city\":\"Postort\",\"cityerror\":\"Postort måste anges\",\"factoringaddress\":\"Skicka fakturan till en annan adress\",\"newfactoringaddress\":\"Faktureringsadress\",\"factoringname\":\"Namn\",\"factoringnameerror\":\"Namn måste anges\",\"password\":\"Lösenord\",\"passworderror\":\"Lösenord måste anges\",\"passwordrepeat\":\"Repetera lösenord\",\"passwordrepeaterror\":\"Du behöver repetera lösenordet\",\"otherinfo\":\"Övriga uppgifter\",\"foodprefernces\":\"Matpreferenser\",\"foodpreferncesplaceholder\":\"T.ex. Vegetarian, nötallergiker\",\"comments\":\"Eventuellt meddelande till oss\",\"morepersons\":\"Anmäl fler personer\",\"morepersonsinfo\":\"Du kan lägga till fler personer till anmälan men observera att allting hamnar på samma faktura.\",\"addperson\":\"LÄGG TILL PERSON\",\"name\":\"Namn\",\"change\":\"Ändra\",\"remove\":\"Ta bort\",\"cancel\":\"Avbryt\",\"save\":\"Spara\",\"add\":\"Lägg till\",\"send\":\"Skicka anmälan\",\"addparticipant\":\"Lägg till deltagare\",\"consentemail\":\"Jag godkänner att Södra skickar information till min mejladress\",\"consentstart\":\"Jag godkänner\",\"consentend\":\"villkoren\",\"consenterror\":\"Du måste godkänna villkoren\",\"participantconsentemail\":\"Jag godkänner att Södra skickar information till mejladressen\",\"formerrorstart\":\"Varning:\",\"formerrorend\":\"Formuläret innehåller fel\",\"sending\":\"Skickar anmälan...\",\"received\":\"Anmälan mottagen!\",\"contactperson\":\"Kontaktperson:\",\"totalprice\":\"Totalt pris (exkl moms):\",\"ordernr\":\"Order nr:\",\"participantentered\":\"Anmälda deltagare\",\"formsubmiterror\":\"Det gick inte att skicka in anmälan.\",\"participant\":\"Deltagare:\",\"status\":\"Status:\"}},\"interestapplication\":{\"header\":\"Våra kurser\",\"form\":{\"header\":\"Skicka intresseanmälan\",\"contactheader\":\"Dina kontaktuppgifter\",\"contactlead\":\"Vi behöver dina kontaktuppgifter så vi kan kontakta dig när en kurs som passar dig dyker upp.\",\"name\":\"Namn\",\"nameerror\":\"Namn måste anges\",\"period\":\"Vid vilken tidpunkt?\",\"location\":\"Vilka områden är intressanta för dig?\",\"locationerror\":\"Minst ett områden måste anges\",\"locationplaceholder\":\"Välj områden\",\"courses\":\"Vilka kurser är du intresserad av?\",\"courseserror\":\"Kurser måste anges\",\"otherinfo\":\"Något mer du vill meddela oss?\",\"tel\":\"Telefon\",\"telerror\":\"Telefon måste anges\",\"email\":\"E-post\",\"send\":\"Skicka\",\"cancel\":\"Avbryt\",\"interestheader\":\"Vad är du intresserad av?\",\"success\":\"Din intresseanmälan är nu skickad. Ett bekräftelsemejl har skickats till den angivna mejladressen.\",\"readmore\":\"Läs mer\",\"iagdprerror\":\"Detta fält är obligatoriskt\"}}},\"search\":{\"hits\":{\"single\":\"träff\",\"multiple\":\"träffar\",\"on\":\"på\"}},\"meta\":{\"company\":\"Bolag\",\"unit\":\"Enhet\",\"city\":\"Ort\",\"area\":\"Verksamhetsområde\",\"forestryArea\":\"Skogsbruksområde\",\"subject\":\"Ämne\"},\"contentlistblock\":{\"noHits\":\"Inget innehåll hittades\",\"findmore\":\"Hitta mer\",\"news\":\"Nyhet\",\"press-release\":\"Pressmeddelande\",\"newsarchive\":\"Nyhetsarkivet\",\"debatearticlearchive\":\"Debattartikelarkiv\",\"pressreleases\":\"Pressmeddelanden\",\"debate-article\":\"Debattartikel\"}}"
+        },
+        {
+          "name": "tversionsv",
+          "value": "01-57-D4-1B-C3-1D-46-2F-24-BE-93-A4-B9-C0-F2-AD"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "OHY5czFjbHQwNnNn"
+        }
+      ]
+    }
+  ]
+}

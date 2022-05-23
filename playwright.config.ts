@@ -4,6 +4,11 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+declare var process : {
+  env: {
+    NODE_ENV: string
+  }
+}
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -31,7 +36,7 @@ const config: PlaywrightTestConfig = {
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: process.env.CI ? 'html' : 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
     /* store global sessions in a file */
   //globalSetup: './global-setup',
@@ -40,11 +45,11 @@ const config: PlaywrightTestConfig = {
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://www.sodra.com/sv/se/',
-
+    
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
     storageState: 'storage-state/storageState.json',
-
+    screenshot: 'only-on-failure',
   },
 
   /* Configure projects for major browsers */
@@ -100,7 +105,7 @@ const config: PlaywrightTestConfig = {
   ],
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
-  // outputDir: 'test-results/',
+  outputDir: 'test-results/',
 
   /* Run your local dev server before starting the tests */
   // webServer: {

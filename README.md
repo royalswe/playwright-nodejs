@@ -37,3 +37,6 @@ show-trace trace.zip
 ## generate test code, available to transorm to other languages
 
 codegen
+
+## fun in full paralell
+--fully-parallel

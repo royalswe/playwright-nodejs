@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test --project=chromium",
+    "test-us": "npx playwright test --update-snapshots --project=chromium"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.22.0",
+    "@playwright/test": "^1.22.1",
     "@types/node": "^17.0.34",
     "dotenv": "^16.0.1"
   }
