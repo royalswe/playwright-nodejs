@@ -16,7 +16,12 @@ steps:
   displayName: 'Install dependencies'
 
 - script: npm run test
-  displayName: 'Run a multi-line script'
+  displayName: 'Run test on chromium'
+  condition: 
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml'
 
 
 
